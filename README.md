@@ -16,3 +16,7 @@ Python 2.7.5
 python-requests
 python-json
 
+If you like it I accept donations !
+
+BTC: 14BC97m1hhtk7am38XqrspEHGBgGVH5TZ5
+LTC: LUxwmhyxckKUKMcvHCuqajzKKAKx1gynbz
