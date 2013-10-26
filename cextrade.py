@@ -47,7 +47,7 @@ class Cextrade:
     JSON result on HTTP status code 200. In other cases it will return
     either the response object or, in case of an exception, None.
     """
-    nonce= int(untemps())
+    nonce= int(untemps()) # Maybe there is a better solution ?
     message = str(nonce) + self.API_USER + self.API_KEY
     print message
     signature = hmac.new(self.API_SECRET, msg=message, digestmod=hashlib.sha256).hexdigest().upper()
